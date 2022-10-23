@@ -1,0 +1,103 @@
+:root[data-theme="light"] {
+    --background-color: #fafafa;
+    --color: #000000;
+  }
+  :root[data-theme="dark"] {
+    --background-color: #2b3e51;
+    --color: #ffffff;
+  }
+  
+  body {
+    background: var(--background-color);
+  }
+.profile-block{
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: auto;
+    background: var(--background-color);
+    box-shadow: 0px 2px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
+    display: flex;
+
+}
+.photo-block{
+    width: 600px;
+    height: 600px;
+    position: left;
+    
+}
+.info-block{
+    width: 600px;
+    height: 600px;
+    align-content: right;
+   justify-content: right;
+   
+
+}
+.info-block{
+    font-family: 'Montserrat';
+font-style: normal;
+color: var(--color);
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+margin-top: 35px;
+}
+.profileForm{
+    font-family: 'Montserrat';
+    font-style: normal;
+    margin-bottom: 25px;
+    font-size: 24px;
+    margin-top: 5px;
+    width: 403px;
+    height: 59px;
+    background: var(--background-color);
+    border: 1px solid #9700F7;
+    border-radius: 15px;
+}
+.profileForm::placeholder{
+    padding-left: 20px;
+}
+.label-prf{
+    font-size: 16px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.btn-profile{
+    font-size: 24px;
+line-height: 29px;
+    font-family: 'Montserrat';
+    font-style: normal;
+width: 275px;
+height: 80px;
+background: #9700F7;
+border-radius: 15px;
+color: #FFFFFF;
+border: 0px solid white;
+}
+.profile-logo{
+ margin-left: 3vh;
+}
+.img-profile{
+    
+    display: block;
+    margin-left: 200px;
+    padding-top: 60px;
+    width: 181px;
+    height: 181px;
+    border-radius: 20px;
+
+    
+}
+.desc-profile{
+    width: 268px;
+    color: var(--color);
+height: 78px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+font-display: inline;
+}

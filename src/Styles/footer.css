@@ -1,0 +1,43 @@
+:root[data-theme="light"] {
+   --background-color: #fafafa;
+   --color: #000000;
+
+ }
+ 
+ :root[data-theme="dark"] {
+   --background-color: #2b3e51;
+   --color: #ffffff;
+ }
+ 
+ body {
+   background: var(--background-color);
+ }
+
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;   /* Height of the footer */
+    background: #6cf;
+    height: 80px;
+    background: var(--background-color);
+    box-shadow: 0px 20px 62px rgba(0, 0, 0, 0.25);
+    border-radius: 25px 25px 0px 0px;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+ }
+ .footer .menu ul{
+    display: flex;
+    padding-top: 10px;
+ }
+ .footer .menu ul li{
+    list-style: none;
+    width: 30px;
+    height: 30px;
+    margin-right:68px;
+ }
+ .footer .menu ul li .imgTask{
+    height: 34px;
+    width: 34px;
+ }

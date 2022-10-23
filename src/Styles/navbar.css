@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+:root[data-theme="light"] {
+    --background-color: #fafafa;
+    --color: #000000;
+
+  }
+  
+  :root[data-theme="dark"] {
+    --background-color: #2b3e51;
+    --color: #ffffff;
+  }
+  
+  body {
+    background: var(--background-color);
+  }
+
+.navbar{
+    position: relative;
+    width: auto;
+    height: 150px;
+    color: white;
+    display: flex;
+    padding-left:50px ;
+    padding-right: 50px;
+    padding-top: 20px;
+    justify-content: space-between;
+}
+.navbar .arrow{
+    background-color: var(--background-color);
+    border: 0px solid white;
+    margin-bottom: 50px;
+}
+.navbar .nadpis{
+    color: var(--color);
+}
+.navbar .head{
+    color: black;
+    width: 124px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+    width: auto;
+}
+.navbar .settings{
+    height: 32px;
+    width: 32px;
+    text-align: right;
+}
+.navbar .account{
+    height: 32px;
+    width: 32px;
+    margin-right: 50px;
+}
+.navbar .end{
+    position: relative;
+    margin-top: 20px;
+
+}
+.navbar .exit{
+    height: 32px;
+    width: 32px;
+    text-align: right;
+}

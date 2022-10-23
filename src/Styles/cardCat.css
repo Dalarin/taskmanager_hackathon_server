@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.taskCard{
+    display: flex;
+    width: 581px;
+    height: 79px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 18px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+    justify-content: space-between;
+    align-items:center;
+    padding-left: 8px;
+
+    
+}
+.taskCard .name{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    margin-left: 50px;
+}
+.taskCard .tags{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #9700F7;
+    margin-right: 50px;
+}
+.taskCard .progress{
+    width: 124px;
+    height: 34px;
+    background: #D9D9D9;
+    border-radius: 13px;
+    margin-right: 10px;
+}
+.progress::after{
+    display: flex;
+    content: "  ";
+    width: 72px;
+    height: 34px;
+    background: #9700F7;
+    border-radius: 13px;
+    margin-left: auto;
+}
